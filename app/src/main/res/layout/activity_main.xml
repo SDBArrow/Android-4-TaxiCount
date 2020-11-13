@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="count" />
+
+    <TextView
+        android:id="@+id/TV_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:text="費率：" />
+
+    <TextView
+        android:id="@+id/TV_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:text="距離：" />
+    <TextView
+        android:id="@+id/TV_ratemeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:text="每...公尺：" />
+
+    <TextView
+        android:id="@+id/TV_ratemoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_marginTop="200dp"
+        android:text="加收...元：" />
+
+
+    <TextView
+        android:id="@+id/TV_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_count"
+        android:text="Price：" />
+
+    <EditText
+        android:id="@+id/ET_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/ET_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="100dp"/>
+    <EditText
+        android:id="@+id/ET_ratemeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:id="@+id/ET_ratemoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="200dp"/>
+
+</RelativeLayout>
